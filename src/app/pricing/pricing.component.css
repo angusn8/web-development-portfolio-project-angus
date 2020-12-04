@@ -1,0 +1,40 @@
+.jumbotron {
+    background-image: url(../../assets/pricing-jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    color: white;
+    background-color: var(--primary-color );
+}
+
+.col-md-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-light-grey {
+    background: var(--light-grey);
+}
+
+.bg-brown {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.col-sm-12 img {
+    width: 12rem;
+    height: 3rem;
+}
+
+.btn-outline-primary {
+    border: 2px var(--primary-color) solid;
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    border: 2px var(--primary-color) solid;
+    color: white;
+    background-color: var(--primary-color);
+}

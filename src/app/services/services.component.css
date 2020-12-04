@@ -1,0 +1,36 @@
+.jumbotron {
+    background-image: url(../../assets/products-jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    color: white;
+    background-color: var(--primary-color );
+}
+
+.col-md-6 img {
+    width: 50%;
+    height: 12rem;
+}
+
+.bg-brown {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.btn-outline-primary {
+    border: 2px var(--primary-color) solid;
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    border: 2px var(--primary-color) solid;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.col-sm-12 img {
+    width: 12rem;
+    height: 3rem;
+}

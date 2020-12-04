@@ -1,0 +1,52 @@
+.jumbotron {
+    background-image: url(../../assets/home-showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 3px white solid;
+}
+
+span {
+    color: white;
+    background-color: var(--primary-color );
+}
+
+.text-center img {
+    height: 10rem;
+}
+
+.btn-outline-primary {
+    border: 2px var(--primary-color) solid;
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    border: 2px var(--primary-color) solid;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.col-lg-7 img {
+    width: 100%;
+}
+
+.col-sm-12 img {
+    width: 12rem;
+    height: 3rem;
+}
+
+.bg-light-grey {
+    background: var(--light-grey);
+}
+
+.bg-off-white {
+    background: var(--off-white);
+}
+
+.bg-brown {
+    background: var(--secondary-color);
+    color: white;
+}

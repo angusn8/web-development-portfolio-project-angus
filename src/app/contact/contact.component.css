@@ -1,0 +1,13 @@
+.btn-outline-primary {
+    border: 2px var(--primary-color) solid;
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    border: 2px var(--primary-color) solid;
+    color: white;
+    background-color: var(--primary-color);
+}
+.bg-light-grey {
+    background: var(--light-grey);
+}
